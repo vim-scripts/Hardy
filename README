@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5180
+
+vim-hardy provides support for Arduino in vim.  It covers syntax, compilation,
+and verification for Arduino code.  I decided to call this plugin "vim-hardy"
+because "Arduino" means "hardy friend" in italian. Note that I did not
+write the arduino syntax file, it was created by Johannes Hoff, and is available here:
+vimscript#2654
+
+Arduino IDE version 1.5.0 and up is required for the compilation and uploading
+of Arduino code.  By default, vim-hardy looks for it in your PATH, but you can
+specify an installation directory with "g:hardy_arduino_path`"
+
+To verify an Arduino file, run ":ArduinoVerify".  To compile and upload it, use
+":ArduinoUpload".  For information on any options and other features, see
+"doc/hardy.txt".
+
+For development versions and bug reports, see the Github repository:
+https://github.com/4Evergreen4/vim-hardy
+
+Any feedback can be sent to evergreenubuntu[AT]gmail[DOT]com
+
